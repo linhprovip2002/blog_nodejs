@@ -2,9 +2,10 @@
   "name": "blog_nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js ",
+    "start": "nodemon --inspect src/index.js ",
+    "watch":" node-sass  --watch src/resources/scss -output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +24,13 @@
   "homepage": "https://github.com/linhprovip2002/blog_nodejs#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "express-handlebars": "^6.0.5",
+    "hbs": "^4.2.0",
     "install": "^0.13.0",
     "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1"
   }
 }
