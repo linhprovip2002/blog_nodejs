@@ -1,10 +1,6 @@
-@import '_variable';
-h1
+.test
 {
-    color:$red-color;
-
-}
-h2
-{
-    color: blue;
+    font-size: 1 rem;
+    background-color: red;
+    width: 100 px;
 }
