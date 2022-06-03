@@ -5,3 +5,11 @@
 .boxmain{
   size : 438px 720px;
 }
+.btn-primary 
+{
+  margin-top: 20px;
+}
+.nav-item 
+{
+  float: right;
+}

@@ -29,6 +29,7 @@
     "hbs": "^4.2.0",
     "install": "^0.13.0",
     "mongoose": "^6.3.5",
+    "mongoose-slug-generator": "^1.0.4",
     "nodemon": "^2.0.16"
   },
   "lint-staged": {
