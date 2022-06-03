@@ -1,3 +1,22 @@
-<h1>
-    Home Page
-</h1>
+<div class="mt-4">
+    <div class="row">
+         {{#each courses}}
+        <div class="col-sm-6 col-lg-4 box-main">
+           
+            <div class="card card-course-item">
+                <a href="/courses/{{this.slug}}">
+                <img src="{{this.img}}" class="card-img-top img_course" alt="{{this.Name}}">
+                </a>
+                <div class="card-body">
+                    <a href="/courses/{{this.slug}}">
+                        <h5 class="card-title">{{this.Name}}</h5>
+                    </a>
+                    <p class="card-text">{{this.Description}}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            
+        </div>
+        {{/each}}
+    </div>
+</div>
